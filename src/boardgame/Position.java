@@ -2,19 +2,19 @@ package boardgame;
 
 public class Position {
     private int row;
-    private int colun;
+    private int column;
 
-    public Position(int row, int colun) {
+    public Position(int row, int column) {
         this.row = row;
-        this.colun = colun;
+        this.column = column;
     }
 
-    public int getColun() {
-        return colun;
+    public int getColumn() {
+        return column;
     }
 
-    public void setColun(int colun) {
-        this.colun = colun;
+    public void setColumn(int column) {
+        this.column = column;
     }
 
     public int getRow() {
@@ -27,6 +27,6 @@ public class Position {
 
     @Override
     public String toString() {
-        return row + ", " +colun;
+        return row + ", " +column;
     }
 }

@@ -1,5 +1,7 @@
 package boardgame;
 
+import java.io.PipedReader;
+
 public class Board {
     private int rows;
     private int columns;
@@ -10,7 +12,7 @@ public class Board {
         this.rows = rows;
         pieces = new Piece[rows][columns];
     }
-    
+
     public int getColumns() {
         return columns;
     }
@@ -25,6 +27,13 @@ public class Board {
 
     public void setRows(int rows) {
         this.rows = rows;
+    }
+    public Piece piece(int row, int column){
+         return pieces[row][column];
+    }
+
+    public Piece piece(Position position){
+        return pieces[position.getRow()][position.getColumn()];
     }
 
 }
