@@ -1,6 +1,5 @@
 package boardgame;
 
-import java.io.PipedReader;
 
 public class Board {
     private int rows;
