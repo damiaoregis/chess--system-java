@@ -18,6 +18,8 @@ void main() {
             IO.println();
             IO.print("Source: ");
             ChessPosition source = UI.readChessPosition(sc);
+            boolean[][] possibleMoves = chessMatch.possibleMoves(source);
+            UI.printBoard(chessMatch.getPiess(),possibleMoves);
             IO.println();
             IO.print("Target: ");
             ChessPosition target = UI.readChessPosition(sc);
