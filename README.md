@@ -29,14 +29,6 @@ Este repositório foi criado por **Damião Regis de Farias Barbosa** como exerc�
 - **Java** (100%)  
 
 ---
-
-## 📌 Status do repositório
-
-- **Stars:** 0  
-- **Forks:** 0  
-- **Watchers:** 0  
-- **Commits:** 25 (última atualização: correção no tratamento de promoção)  
-
 ---
 
 ## 📖 Como executar
